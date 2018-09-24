@@ -1,0 +1,22 @@
+{
+  "name": "js-dev-env",
+  "version": "1.0.0",
+  "description": "Javascript Project Starter",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node buildScripts/srcServer.js"
+  },
+  "repository": "git+https://github.com/psibomana/js-dev-env.git",
+  "author": "Parfait Pascal Sibomana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/psibomana/js-dev-env/issues"
+  },
+  "homepage": "https://github.com/psibomana/js-dev-env#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "http-server": "^0.11.1",
+    "open": "^0.0.5"
+  }
+}
