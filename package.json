@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "test",
-    "start": "node buildScripts/srcServer.js"
+    "start": "babel-node buildScripts/srcServer.js"
   },
   "repository": "git+https://github.com/psibomana/js-dev-env.git",
   "author": "Parfait Pascal Sibomana",
@@ -18,5 +18,17 @@
     "express": "^4.16.3",
     "http-server": "^0.11.1",
     "open": "^0.0.5"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1",
+    "eslint": "3.8.1",
+    "eslint-plugin-import": "2.0.1",
+    "eslint-watch": "2.1.14",
+    "webpack": "1.13.2",
+    "webpack-dev-middleware": "1.8.4",
+    "webpack-hot-middleware": "2.13.0",
+    "webpack-md5-hash": "0.0.5"
   }
 }
